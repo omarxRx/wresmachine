@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mi formulario</title>
+</head>
+<body>
+	<form>
+		<h1>FORMULARIO</h1>
+		<br><br>
+
+		<label for="nombre">Nombre:</label>
+		<br><br>
+		<input type="text" name="usuario">
+		<br><br>
+
+		<label for="apellido">Apellido:</label>
+		<br><br>
+		<input type="text" name="Apellido">
+		<br><br>
+
+		<label for="nacimiento">Fecha de Nacimiento:</label>
+		<br><br>
+		<input type="date" name="nacimiento">
+		<br><br>
+
+		<label for="email">Email:</label>
+		<br><br>
+		<input type="email" name="email" placeholder="nombre@gmail.com">
+		<br><br>
+
+		<label for="telefono">Teléfono:</label>
+		<br><br>
+		<input type="text" name="telefono">
+		<br><br>
+
+		<input type="radio" name="genero" id="hombre">
+		<label for="hombre">Masculino</label>
+		<input type="radio" name="genero" id="mujer">
+		<label for="mujer">Femenino</label>
+		<br><br>
+
+		<input type="submit" value="Enviar datos">
+		<input type="reset" value="Limpiar datos">
+
+	</form>
+
+</body>
+</html>
